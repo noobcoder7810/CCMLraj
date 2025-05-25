@@ -1,0 +1,33 @@
+Campuspulse
+
+1. Introduction
+We are predicting if a student is in a relationship based on survey data.
+
+2. Data Cleaning
+Filled missing values using:
+
+Mean for G2, absences
+
+Mode for famsize, fedu, freetime
+
+Random “yes/no” for higher
+
+Dropped rows where label (relationship) was missing.
+
+3. Exploratory Analysis
+Plotted distributions of features.
+
+4. Model Training
+Used Logistic Regression.
+Tried multiple combinations of features.
+
+5. Model Interpretation
+Used SHAP for feature importance.
+
+6. Conclusion
+SHAP helps us explain the prediction clearly.
+The model works decently and gives some insight.
+
+SHAP helps us explain the prediction clearly.
+
+It was a good learning experience in data cleaning, EDA, and modeling.
